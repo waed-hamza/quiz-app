@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/icons-brain.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+    <title>Quiz App</title>
+</head>
+<body>
+
+    <main>
+        <div id="score-container">
+            <span>Score:</span>
+            <span id="score-text">0/10</span>
+        </div>
+
+        <div id="question-container">
+            <span>
+                <span id="question-number"></span>
+                <svg height="16" width="11">
+                    <path d="M7.586 5L4.293 1.707 5.707.293 10.414 5 5.707 9.707 4.293 8.293z"></path>
+                    <path d="M8 4v2H0V4z"></path>
+                </svg>
+            </span> 
+            <span id="question">
+            </span>
+        </div>
+        
+        <div id="code-container" class="display"></div>
+
+        <ul id="options">
+            <li class="options">
+                <span class="option-number">A</span>
+                <span class="option-text"></span>
+            </li>
+            <li class="options">
+                <span class="option-number">B</span>
+                <span class="option-text"></span>
+            </li>
+            <li class="options">
+                <span class="option-number">C</span>
+                <span class="option-text"></span>
+            </li>
+            <li class="options">
+                <span class="option-number">D</span>
+                <span class="option-text"></span>
+            </li>
+        </ul>
+    </main>
+
+    <script type="module" src="./index.js"></script>
+</body>
+</html>

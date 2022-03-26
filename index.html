@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/icons-brain.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <title>Quiz App</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./HowToPlay/index.html">How to play</a></li>
+                <li><a href="./leaderBoard/index.html">LeaderBoard</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <p>
+            <span>
+                <svg height="16" width="11">
+                    <path d="M7.586 5L4.293 1.707 5.707.293 10.414 5 5.707 9.707 4.293 8.293z"></path>
+                    <path d="M8 4v2H0V4z"></path>
+                </svg>
+            </span> 
+            What's your name?
+        </p>
+        <input type="text" name="name" id="name" required>
+        <p id="required-msg"></p>
+        <button id="start">
+            Start
+            <svg height="13" width="16"><path d="M14.293.293l1.414 1.414L5 12.414.293 7.707l1.414-1.414L5 9.586z"></path></svg>
+        </button>
+    </main>
+
+    <script src="./index.js"></script>
+</body>
+</html>
