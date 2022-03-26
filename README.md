@@ -1,7 +1,5 @@
 # JavaScript Quiz [App][1]
 
-<br/>
-
 ## By: Waed Hafitha.
 
 <br/>
